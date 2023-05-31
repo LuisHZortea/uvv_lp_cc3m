@@ -1,17 +1,22 @@
 <div align="center">
  
   # Problem Set 1
- 
-</div>
+  #### Aluno: Luis Henrique Gomes Zortea | Curso: Ciência da Computação | Turma: CC3M | Professor(a): Abrantes Araújo Silva Filho 
+</div> 
 
-#### Aluno: Luis Henrique Gomes Zortea | Curso: Ciência da Computação | Turma: CC3M | Professor(a): Abrantes Araújo Silva Filho 
+- Este PSET é uma tradução da primeira tarefa de programação que os alunos da disciplina “MIT 6.009: Fundamentals of Programming” recebem logo no primeiro dia de aula, feita para os alunos da disciplina “Linguagens de Programação” na Universidade Vila Velha (UVV).
 
 ## Questões
 - #### Questão 01 
 > Se você passar essa imagem pelo filtro de inversão, qual seria o output esperado? Justifique sua resposta.
-
- O resultado será: [226, 166, 119, 200].
-
+~~~
+ O resultado será: [226, 166, 119, 55].
+ Cálculo:
+ 255 - 29 => 226
+ 255 - 89 => 166
+ 255 - 136 => 119
+ 255 - 200 => 55
+~~~
 - #### Questão 02
 > Faça a depuração e, quando terminar, seu código deve conseguir passar em todos os testes do grupo de teste TestInvertida (incluindo especificamente o que você acabou de criar). Execute seu filtro de inversão na imagem test_images/bluegill.png, salve o resultado como uma imagem PNG e salve a imagem em seu repositório GitHub.
 
