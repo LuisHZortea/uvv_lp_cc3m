@@ -34,6 +34,8 @@
 - #### Questão 04
 > Quando você tiver implementado seu código, tente executá-lo em test_images/pigbird.png com o seguinte kernel 9 × 9. Ao rodar esse kernel, salve a imagem resultante em seu repositório GitHub.
 
+![pigbirdcorrelacao.png](https://github.com/LuisHZortea/uvv_lp_cc3m/blob/main/Imagens/pigbirdcorrelacao.png)
+
 - #### Questão 05
 > Se quisermos usar uma versão desfocada B que foi feita com umkernel de desfoque de caixa de 3 × 3, que kernel k poderíamos usar para calcular toda a imagem nítida com uma única correlação? Justifique sua resposta mostrando os cálculos.
 
