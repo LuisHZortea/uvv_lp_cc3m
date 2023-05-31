@@ -68,7 +68,7 @@ correlacaoIm.salvar('Imagens/pigbirdcorrelacao.png')
 
 ~~~
 imagem = Imagem.carregar('test_images/cat.png')
-borrarIm = im.borrada(5)
+borrarIm = imagem.borrada(5)
 Imagem.salvar(borrarIm, 'Imagens/gato.png')
 ~~~~
 
