@@ -20,7 +20,12 @@
 - #### Questão 02
 > Faça a depuração e, quando terminar, seu código deve conseguir passar em todos os testes do grupo de teste TestInvertida (incluindo especificamente o que você acabou de criar). Execute seu filtro de inversão na imagem test_images/bluegill.png, salve o resultado como uma imagem PNG e salve a imagem em seu repositório GitHub.
 
-![bluegillinvertido.png](https://github.com/LuisHZortea/uvv_lp_cc3m/blob/main/Imagens/bluegillinvertido.png)
+![bluegillinvertido.png](https://github.com/LuisHZortea/uvv_lp_cc3m/blob/main/Imagens/bluegillinvertido.png) 
+~~~
+imagem_original = Imagem.carregar('bluegill.png')
+imagem_nova = image.original.invertida()
+imagem_nova.salvar('bluegillinvertido.png)
+~~~
 
 - #### Questão 03
 > Considere uma etapa de correlacionar uma imagem com o seguinte kernel:
@@ -41,10 +46,31 @@
 
 ![pigbirdcorrelacao.png](https://github.com/LuisHZortea/uvv_lp_cc3m/blob/main/Imagens/pigbirdcorrelacao.png)
 
+~~~
+kernel = [[0, 0, 0, 0, 0, 0, 0, 0, 0,],
+             [0, 0, 0, 0, 0, 0, 0, 0, 0,],
+             [1, 0, 0, 0, 0, 0, 0, 0, 0,],
+             [0, 0, 0, 0, 0, 0, 0, 0, 0,],
+             [0, 0, 0, 0, 0, 0, 0, 0, 0,],
+             [0, 0, 0, 0, 0, 0, 0, 0, 0,],
+             [0, 0, 0, 0, 0, 0, 0, 0, 0,],
+             [0, 0, 0, 0, 0, 0, 0, 0, 0,],
+             [0, 0, 0, 0, 0, 0, 0, 0, 0]]
+im = Imagem.carregar('test_images/pigbird.png')
+correlacaoIm = im.correlacao(kernel)
+correlacaoIm.salvar('Imagens/pigbirdcorrelacao.png')
+ ~~~~
+
 - #### Questão 05
 > Quando você terminar e seu código passar em todos os testes relacionados ao desfoque, execute seu filtro na imagem test_images/cat.png com um kernel de desfoque de caixa de tamanho 5, salve o resultado como uma imagem PNG e faça o upload para seu repositório GitHub.
 
 ![gato.png](https://github.com/LuisHZortea/uvv_lp_cc3m/blob/main/Imagens/gato.png)
+
+~~~
+imagem = Imagem.carregar('test_images/cat.png')
+borrarIm = im.borrada(5)
+Imagem.salvar(borrarIm, 'Imagens/gato.png')
+~~~~
 
 - #### Questão 06
 > Se quisermos usar uma versão desfocada B que foi feita com um kernel de desfoque de caixa de 3 × 3, que kernel k poderíamos usar para calcular toda a imagem nítida com uma única correlação? Justifique sua resposta mostrando os cálculos.
