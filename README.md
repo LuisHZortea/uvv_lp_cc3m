@@ -19,12 +19,18 @@
 
 - #### Questão 03
 > Considere uma etapa de correlacionar uma imagem com o seguinte kernel:
+~~~~
 0.00 -0.07 0.00
 -0.45 1.20 -0.25
 0.00 -0.12 0.00
->Aqui está uma parte de uma imagem de amostra, com as luminosidades específicas de alguns pixels:
+~~~~
+>Qual será o valor do pixel na imagem de saída no local indicado pelo destaque vermelho? Observe que neste ponto ainda não arredondamos ou recortamos o valor, informe exatamente como você calculou. Observação: demonstre passo a passo os cálculos realizados.
+~~~
+80 x 0 + (-0,07 x 53) + 99 x 0               -> 0 - 3,71 + 0        }
+(-0,45 x 129) + 127 x 1,20 + (-0,25 x 148) + -> -58,05 + 152,4 - 37 } -> Ox,y = 32,76
+175 x 0 + (-0,12 x 174) + 193 x 0            -> 0 - 20,88 + 0       }
+~~~~
 
->Qual será o valor do pixel na imagem de saída no local indicado pelo destaquevermelho? Observe que neste ponto ainda não arredondamos ou recortamos o valor, informe exatamente como você calculou. Observação: demonstre passo a passo os cálculos realizados.
 - #### Questão 04
 > Quando você tiver implementado seu código, tente executá-lo em test_images/pigbird.png com o seguinte kernel 9 × 9. Ao rodar esse kernel, salve a imagem resultante em seu repositório GitHub.
 
