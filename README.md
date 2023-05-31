@@ -10,6 +10,8 @@
 - #### Questão 01 
 > Se você passar essa imagem pelo filtro de inversão, qual seria o output esperado? Justifique sua resposta.
 
+ O resultado será: [226, 166, 119, 200].
+
 - #### Questão 02
 > Faça a depuração e, quando terminar, seu código deve conseguir passar em todos os testes do grupo de teste TestInvertida (incluindo especificamente o que você acabou de criar). Execute seu filtro de inversão na imagem test_images/bluegill.png, salve o resultado como uma imagem PNG e salve a imagem em seu repositório GitHub.
 
