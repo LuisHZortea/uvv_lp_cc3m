@@ -37,7 +37,12 @@
 ![pigbirdcorrelacao.png](https://github.com/LuisHZortea/uvv_lp_cc3m/blob/main/Imagens/pigbirdcorrelacao.png)
 
 - #### Questão 05
-> Se quisermos usar uma versão desfocada B que foi feita com umkernel de desfoque de caixa de 3 × 3, que kernel k poderíamos usar para calcular toda a imagem nítida com uma única correlação? Justifique sua resposta mostrando os cálculos.
+> Quando você terminar e seu código passar em todos os testes relacionados ao desfoque, execute seu filtro na imagem test_images/cat.png com um kernel de desfoque de caixa de tamanho 5, salve o resultado como uma imagem PNG e faça o upload para seu repositório GitHub.
+
+![gato.png](https://github.com/LuisHZortea/uvv_lp_cc3m/blob/main/Imagens/gato.png)
+
+- #### Questão 06
+> Se quisermos usar uma versão desfocada B que foi feita com um kernel de desfoque de caixa de 3 × 3, que kernel k poderíamos usar para calcular toda a imagem nítida com uma única correlação? Justifique sua resposta mostrando os cálculos.
 
 - #### Questão 06
 > Explique o que cada um dos kernels acima, por si só, está fazendo. Tente executar mostrar nos resultados dessas correlações intermediárias para ter uma noção do que está acontecendo aqui. Implemente o detector de bordas como o método bordas dentro da classe Imagem. O método deve retornar uma nova instância de Imagem resultante das operações acima. Quando terminar e seu código passar nos testes de detecção de borda, execute seu detector de borda na imagem test_images/construct.png, salve o resultado como uma imagem PNG e faça o upload para seu repositório GitHub.
